@@ -1,0 +1,17 @@
+resources:
+  repositories: 
+  - repository: RepositoryResourceAlias
+    type: git
+    ##endpoint: TestReposEndpoint
+    name: XcodeBuildTest/XcodeBuildTest
+  - repository: Mseng
+    type: git
+    endpoint: MsengRepos
+    name: AzureDevOps/AzureDevOps
+
+pool: 
+  vmImage: windows-latest
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
