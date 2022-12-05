@@ -58,6 +58,7 @@ Internal Server Error
       "target": "bash.js",
       "argumentFormat": ""
     }
+}
 ```
 
 </td>
@@ -69,6 +70,7 @@ Internal Server Error
       "target": "bash.js",
       "argumentFormat": ""
     }
+}
 ```
 
 </td>
